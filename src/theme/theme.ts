@@ -34,6 +34,7 @@ const theme = createTheme({
     },
     text: {
       primary: colors.black,
+      secondary: colors.white,
     },
   },
   typography: {
