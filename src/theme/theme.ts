@@ -38,10 +38,10 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: "Roboto, Arial, sans-serif",
     h1: {
+      fontFamily: "Inter, sans-serif",
       fontSize: "2.5rem",
-      fontWeight: 700,
+      fontWeight: 300,
     },
     h2: {
       fontSize: "2rem",
