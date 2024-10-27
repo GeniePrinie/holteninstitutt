@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "baseline",
-        marginTop: "2rem",
+        marginY: "2rem",
       }}
     >
       <Box>
