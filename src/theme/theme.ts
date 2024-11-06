@@ -44,10 +44,22 @@ const theme = createTheme({
       fontWeight: 300,
     },
     h2: {
+      fontFamily: "Inter, sans-serif",
       fontSize: "2rem",
       fontWeight: 700,
     },
+    h5: {
+      fontFamily: "Inter, sans-serif",
+      fontSize: "1.5rem",
+      fontWeight: 600,
+    },
+    h6: {
+      fontFamily: "Inter, sans-serif",
+      fontSize: "1.5rem",
+      fontWeight: 300,
+    },
     body1: {
+      fontFamily: "Inter, sans-serif",
       fontSize: "1rem",
       fontWeight: 400,
     },
