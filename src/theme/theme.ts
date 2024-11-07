@@ -63,6 +63,11 @@ const theme = createTheme({
       fontSize: "1rem",
       fontWeight: 400,
     },
+    body2: {
+      fontFamily: "Inter, sans-serif",
+      fontSize: "1rem",
+      fontWeight: 600,
+    },
     button: {
       textTransform: "none",
     },
