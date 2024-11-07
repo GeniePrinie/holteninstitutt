@@ -56,6 +56,7 @@ const Physiotherapists: React.FC = () => {
                 backgroundColor: theme.palette.tertiary.main,
                 padding: "0.7rem",
                 width: "100%",
+                boxShadow: "none",
               }}
             >
               <CardMedia
