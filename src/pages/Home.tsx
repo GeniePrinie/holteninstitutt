@@ -7,12 +7,40 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <Box sx={{ width: "100%", height: "auto" }}>
+
+      <Box sx={{ width: "100%", height: "auto", position: "relative" }}>
+
         <img
           src="/images/hiking.jpg"
           alt="hiking"
           style={{ width: "100%", height: "auto", display: "block" }}
         />
+
+        <Typography
+          variant="h2"
+          component="div"
+          sx={{
+            position: "absolute",
+            top: "50%",
+            left: "10%",
+            transform: "translateY(-50%)",
+            color: "white",
+            padding: "0.5rem 1rem",
+            borderRadius: "8px",
+            width: "80%",
+            "@media (max-width: 600px)": {
+              top: "auto",
+              bottom: "10%",
+              left: "50%",
+              transform: "translateX(-50%)",
+              width: "90%",
+              fontSize: "1.5rem",
+            },
+          }}
+        >
+          Bevegelse er medisin
+        </Typography>
+
       </Box>
       <Container>
         <Typography
