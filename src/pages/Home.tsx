@@ -7,12 +7,15 @@ const Home: React.FC = () => {
 
   return (
     <>
+
       <Box sx={{ width: "100%", height: "auto", position: "relative" }}>
+
         <img
           src="/images/hiking.jpg"
           alt="hiking"
           style={{ width: "100%", height: "auto", display: "block" }}
         />
+
         <Typography
           variant="h2"
           component="div"
@@ -37,6 +40,7 @@ const Home: React.FC = () => {
         >
           Bevegelse er medisin
         </Typography>
+
       </Box>
       <Container>
         <Typography
