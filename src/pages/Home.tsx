@@ -1,15 +1,15 @@
 import React from "react";
 import { useTheme } from "@mui/material/styles";
 import { Box, Container, Typography } from "@mui/material";
+import HelmetComponent from "../components/Helmet";
 
 const Home: React.FC = () => {
   const theme = useTheme();
 
   return (
     <>
-
+      <HelmetComponent title="Hjem | Holten intstitutt" />
       <Box sx={{ width: "100%", height: "auto", position: "relative" }}>
-
         <img
           src="/images/hiking.jpg"
           alt="hiking"
@@ -40,7 +40,6 @@ const Home: React.FC = () => {
         >
           Bevegelse er medisin
         </Typography>
-
       </Box>
       <Container>
         <Typography
