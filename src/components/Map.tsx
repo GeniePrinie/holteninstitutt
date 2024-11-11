@@ -8,6 +8,7 @@ const Map: React.FC = () => {
       style={{ border: "0", width: "100%" }}
       allowFullScreen
       loading="lazy"
+      title="Google Maps Embed"
       referrerPolicy="no-referrer-when-downgrade"
     ></iframe>
   );
