@@ -1,12 +1,14 @@
 import React from "react";
 import { Box, Container, Link, Typography, useTheme } from "@mui/material";
 import Map from "../components/Map";
+import HelmetComponent from "../components/Helmet";
 
 const Contact: React.FC = () => {
   const theme = useTheme();
 
   return (
     <>
+      <HelmetComponent title="Kontakt | Holten intstitutt" />
       <Container>
         <Typography
           variant="body1"
