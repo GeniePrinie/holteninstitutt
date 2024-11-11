@@ -111,7 +111,12 @@ const Navbar: React.FC = () => {
           <Box
             key={item.text}
             sx={{
-              width: item.text === "Fysioterapeuter" ? "7.2rem" : "100%",
+              width:
+                item.text === "Fysioterapeuter"
+                  ? "7.6rem"
+                  : item.text === "Kontakt"
+                  ? "3.9rem"
+                  : "2.6rem",
             }}
           >
             <Link
