@@ -46,13 +46,20 @@ const Home: React.FC = () => {
           variant="h1"
           component="h1"
           gutterBottom
-          sx={{ color: theme.palette.primary.main, marginTop: "2rem" }}
+          sx={{
+            color: theme.palette.primary.main,
+            marginTop: "2rem",
+            fontSize: {
+              xs: "1.6rem",
+              md: "2.5rem",
+            },
+          }}
         >
           Velkommen til
           <span style={{ fontWeight: 500 }}> Holten institutt</span>, medisinsk
           treningsterapi
         </Typography>
-        <Typography sx={{ width: "70%" }}>
+        <Typography sx={{ width: { xs: "100%", md: "70%" } }}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a
           corporis nam rerum nulla voluptate dolorum, modi expedita, quasi
           mollitia fugit corrupti aliquid accusantium nihil illum porro quis
