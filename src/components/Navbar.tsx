@@ -87,7 +87,7 @@ const Navbar: React.FC = () => {
       sx={{
         display: "flex",
         justifyContent: "space-between",
-        alignItems: "baseline",
+        alignItems: { xs: "flex-start", md: "baseline" },
         marginY: "2rem",
       }}
     >
