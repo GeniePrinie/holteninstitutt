@@ -5,6 +5,7 @@ import {
   CardMedia,
   Container,
   Grid,
+  Link,
   Typography,
   useTheme,
 } from "@mui/material";
@@ -102,7 +103,20 @@ const Physiotherapists: React.FC = () => {
                       marginBottom: "0.1rem",
                     }}
                   >
-                    Epost: {physio.email}
+                    Epost:
+                    <Link
+                      href={`mailto:${physio.email}`}
+                      sx={{
+                        marginLeft: "0.5rem",
+                        color: "inherit",
+                        "&:hover": {
+                          textDecoration: "underline",
+                          color: "primary.main",
+                        },
+                      }}
+                    >
+                      {physio.email}
+                    </Link>
                   </Typography>
                   <Typography variant="body1" component="p">
                     tlf: {physio.phone}
