@@ -2,48 +2,68 @@
   "PhysiotherapistsData": [
     {
       "id": 1,
-      "name": "Øyvind Sæter",
-      "position": "Senior Fysioterapeut",
-      "description": "Jeg er fysioterapeut og jobber med muskel og skjelett plager. Jeg har lang erfaring og har jobbet med mange pasienter. Jeg er fysioterapeut og jobber med muskel og skjelett plager. Jeg har lang erfaring og har jobbet med mange pasienter.",
-      "imageUrl": "/images/physiotherapists/oyvind.jpg",
-      "email": "oyvind@email.com",
-      "phone": "+47 12345678"
+      "name": "Jonas Hushovd Martinsen",
+      "position": "Fysioterapeut",
+      "background": [
+        "Ferdigutdannet fysioterapeut fra Høgskolen i Oslo i 2012.",
+        "Aktiv med artrose sertifisert (AktivA)."
+      ],
+      "description": "Jonas har lang klinisk erfaring fra offentlig og privat praksis, og har de siste årene hatt sin praksis ved Holten institutt. Han har bred erfaring innen allmennfysioterapi, med solid kompetanse innen behandling og rehabilitering av smertetilstander og funksjonsnedsettelser i muskel- og skjelettapparatet, rehabilitering etter akutte skader, samt pre- og postoperativ rehabilitering.",
+      "imageUrl": "/images/physiotherapists/jonas.jpg",
+      "email": "jonas@holteninstitutt.no"
     },
     {
       "id": 2,
-      "name": "Sandra Markeson",
+      "name": "Mette Ludvigsen Grav",
       "position": "Fysioterapeut",
-      "description": "Jeg er fysioterapeut og jobber med muskel og skjelett plager. Jeg har lang erfaring og har jobbet med mange pasienter.",
-      "imageUrl": "/images/physiotherapists/sandra.jpg",
-      "email": "Sandra@email.com",
-      "phone": "+47 12345678"
+      "background": [
+        "Ferdigutdannet fysioterapeut fra Høgskolen i Oslo 1985.",
+        "Videreutdanning i barnefysioterapi og ridefysioterapi.",
+        "Spesialkompetanse på medisinsk treningsterapi (MTT)."
+      ],
+      "description": "Mette har lang erfaring med undersøkelse og behandling av smertetilstander i muskel og skjelettapparatet, både hos voksne og barn, og har hatt sin kliniske praksis ved Holten institutt i en rekke år. Hun har tidligere jobbet ved medisinsk, nevrologisk og nevrokirurgisk avdeling ved Ullevål sykehus, OUS.",
+      "imageUrl": "/images/physiotherapists/mette.jpg",
+      "email": "mette@holteninstitutt.no"
     },
     {
       "id": 3,
-      "name": "Sander Markeson",
-      "position": "Fysioterapeut",
-      "description": "Jeg er fysioterapeut og jobber med muskel og skjelett plager. Jeg har lang erfaring og har jobbet med mange pasienter.",
-      "imageUrl": "/images/physiotherapists/oyvind.jpg",
-      "email": "Sander@email.com",
-      "phone": "+47 12345678"
+      "name": "Christian F. Bruusgaard",
+      "position": "Manuellterapeut",
+      "background": [
+        "Ferdigutdannet fysioterapeut ved Høgskolen i Oslo 1986.",
+        "Ferdigutdannet manuellterapeut 1993.",
+        "Spesialist i manuellterapi fra 1994-2023.",
+        "Godkjent manuellterapeut med henvisningsrett 2006."
+      ],
+      "description": "Christian har arbeidet ved Menighetssøsterhjemmet, medisinsk avdeling, Kronprinsesse Marthas Sykehus (spesialsykehus for ortopediske sykdommer/problemstillinger), Fysikalsk Medisinsk Poliklinikk ved Ullevål Sykehus og Ryggpoliklinikken ved OUS. Videre har han lang klinisk erfaring fra arbeid ved Holten Institutt for Medisinsk Treningsterapi. Christian er særlig interessert i ortopediske problemstillinger og tilstander relatert til overbelastning av muskel- og skjelettsystemet.",
+      "imageUrl": "/images/physiotherapists/Christian.jpg",
+      "email": "christian@holteninstitutt.no"
     },
     {
       "id": 4,
-      "name": "Sander Markeson",
-      "position": "Fysioterapeut",
-      "description": "Jeg er fysioterapeut og jobber med muskel og skjelett plager. Jeg har lang erfaring og har jobbet med mange pasienter.",
-      "imageUrl": "/images/physiotherapists/oyvind.jpg",
-      "email": "Sander@email.com",
-      "phone": "+47 12345678"
+      "name": "Jostein Holen",
+      "position": "Manuellterapeut",
+      "background": [
+        "Ferdigutdannet fysioterapeut fra Høgskolen i Oslo 1985.",
+        "Ferdigutdannet manuellterapeut 1993.",
+        "Godkjent manuellterapeut med henvisningsrett 2006."
+      ],
+      "description": "Jostein har hatt sin praksis ved Holten Institutt siden 1986 og har lang erfaring med undersøkelse og behandling av funksjonsnedsettelser smertetilstander. Han er opptatt av å implementere aktive tiltak og trening som sentral del av behandlingen. I samarbeid med pasienten søker han å utarbeide et behandlingsopplegg med riktig doserte øvelser for å oppnå bedret funksjon og reduserte smerter.",
+      "imageUrl": "/images/physiotherapists/jostein.jpg",
+      "email": "jostein@holteninstitutt.no"
     },
     {
       "id": 5,
-      "name": "Sander Markeson",
-      "position": "Fysioterapeut",
-      "description": "Jeg er fysioterapeut og jobber med muskel og skjelett plager. Jeg har lang erfaring og har jobbet med mange pasienter.",
+      "name": "Øyvind Ville Sæter",
+      "position": "Fysioterapeut, MSc.",
+      "background": [
+        "Ferdigutdannet fysioterapeut fra Høgskolen i Oslo i 2007.",
+        "Fullført mastergrad i fysioterapi ved Oslo Met i 2023 der han hans masteroppgave var en systematisk litteraturstudie på sammenhengen mellom overvekt og kneartrose.",
+        "Aktiv med artrose sertifisert (AktivA)."
+      ],
+      "description": "Øyvind har bred erfaring med undersøkelse og behandling av både akutte og langvarige smertetilstander fra muskel-skjelettapparatet, idrettsskader og mer sammensatte tilstander. Han har lang klinisk erfaring fra privat praksis ved Volvat Medisinske Senter/NIMI, der han hadde sin kliniske hverdag ved legevakt og ortopedisk avdeling. Han har i mange år jobbet i tverrfaglige team med ortopeder og skadeleger. Innen idrettsskader har Øyvind spesielt god kompetanse på klatring og fotball, og jobber med utøvere på høyeste nasjonale nivå innen begge idretter.",
       "imageUrl": "/images/physiotherapists/oyvind.jpg",
-      "email": "Sander@email.com",
-      "phone": "+47 12345678"
+      "email": "oyvind@holteninstitutt.no"
     }
   ]
 }
