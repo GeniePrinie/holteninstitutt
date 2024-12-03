@@ -56,14 +56,19 @@ const Home: React.FC = () => {
           }}
         >
           Velkommen til
-          <span style={{ fontWeight: 500 }}> Holten institutt</span>, medisinsk
-          treningsterapi
+          <span style={{ fontWeight: 500 }}> Holten institutt</span>
         </Typography>
         <Typography sx={{ width: { xs: "100%", md: "70%" } }}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a
-          corporis nam rerum nulla voluptate dolorum, modi expedita, quasi
-          mollitia fugit corrupti aliquid accusantium nihil illum porro quis
-          adipisci commodi!
+          Vi er en gjeng erfarne fysioterapeuter og manuellterapeuter med bred
+          kompetanse innen behandling av muskel- og skjelettplager. Vi
+          undersøker og behandler alt fra akutte skader til langvarige
+          smertetilstander.
+        </Typography>
+        <Typography sx={{ width: { xs: "100%", md: "70%" }, mt: "1rem" }}>
+          Uttrykket &quot;Bevegelse er medisin&quot; gir en god beskrivelse av
+          det som bør være en grunnpilar i god evidensbasert fysioterapi
+          praksis, og uttrykket beskriver en felles rød tråd i våre terapeuters
+          paraksisprofil.
         </Typography>
       </Container>
     </>
