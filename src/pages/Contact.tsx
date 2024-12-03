@@ -42,9 +42,6 @@ const Contact: React.FC = () => {
             <Typography variant="body1" component="p">
               +47 22 15 12 64
             </Typography>
-            <Typography variant="body1" component="p">
-              Timebestiling gjøres per telefon
-            </Typography>
           </Box>
 
           <Box sx={{ paddingBottom: "2rem" }}>
