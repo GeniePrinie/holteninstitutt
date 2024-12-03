@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {
+  Box,
   Card,
   CardContent,
   CardMedia,
@@ -15,6 +16,7 @@ interface Physiotherapist {
   id: number;
   name: string;
   position: string;
+  background: string[];
   description: string;
   imageUrl: string;
   email: string;
@@ -67,7 +69,7 @@ const Physiotherapists: React.FC = () => {
                   component="img"
                   sx={{
                     width: { xs: "100%", sm: 250 },
-                    height: { xs: "auto", sm: 250 },
+                    height: { xs: "auto", sm: "auto" },
                     borderRadius: "6px",
                     objectFit: "cover",
                     marginRight: { xs: 0, sm: "1rem" },
@@ -76,7 +78,7 @@ const Physiotherapists: React.FC = () => {
                   image={physio.imageUrl}
                   alt={physio.name}
                 />
-                <CardContent sx={{ flex: 1, padding: "0.5rem" }}>
+                <CardContent sx={{ flex: 1, px: "0.5rem", py: "0re," }}>
                   <Typography
                     gutterBottom
                     variant="h5"
@@ -91,6 +93,17 @@ const Physiotherapists: React.FC = () => {
                   </Typography>
                   <Typography variant="h6" component="h3">
                     {physio.position}
+                  </Typography>
+                  <Typography
+                    variant="body1"
+                    component="p"
+                    sx={{ my: "0.5rem" }}
+                  >
+                    <Box>
+                      {physio.background.map((item, index) => (
+                        <Typography key={index}>- {item}</Typography>
+                      ))}
+                    </Box>
                   </Typography>
                   <Typography variant="body1" component="p">
                     {physio.description}
@@ -118,8 +131,8 @@ const Physiotherapists: React.FC = () => {
                       {physio.email}
                     </Link>
                   </Typography>
-                  <Typography variant="body1" component="p">
-                    tlf: {physio.phone}
+                  <Typography variant="body1" component="p" sx={{}}>
+                    Timebestilling gjøres per telefon
                   </Typography>
                 </CardContent>
               </Card>
