@@ -99,11 +99,11 @@ const Physiotherapists: React.FC = () => {
                     component="p"
                     sx={{ my: "0.5rem" }}
                   >
-                    <Box>
+                    <ul style={{ paddingLeft: "1rem" }}>
                       {physio.background.map((item, index) => (
-                        <Typography key={index}>- {item}</Typography>
+                        <li key={index}>{item}</li>
                       ))}
-                    </Box>
+                    </ul>
                   </Typography>
                   <Typography variant="body1" component="p">
                     {physio.description}
