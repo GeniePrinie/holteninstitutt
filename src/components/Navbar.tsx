@@ -146,6 +146,7 @@ const Navbar: React.FC = () => {
           color: theme.palette.secondary.main,
           width: "3rem",
           height: "3rem",
+          mr: { xs: "0.1rem", md: "none" },
           borderRadius: "50%",
           "&:hover": {
             backgroundColor: theme.palette.tertiary.main,
