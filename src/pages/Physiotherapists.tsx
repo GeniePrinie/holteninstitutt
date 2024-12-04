@@ -7,6 +7,7 @@ import {
   Grid,
   Link,
   Typography,
+  useMediaQuery,
   useTheme,
 } from "@mui/material";
 import HelmetComponent from "../components/Helmet";
@@ -17,13 +18,16 @@ interface Physiotherapist {
   position: string;
   background: string[];
   description: string;
-  imageUrl: string;
+  desktopImageUrl: string;
+  phoneImageUrl: string;
   email: string;
   phone: string;
 }
 
 const Physiotherapists: React.FC = () => {
   const theme = useTheme();
+
+  const isDesktop = useMediaQuery(theme.breakpoints.up("sm"));
   const [physiotherapists, setPhysiotherapists] = useState<Physiotherapist[]>(
     []
   );
@@ -74,7 +78,9 @@ const Physiotherapists: React.FC = () => {
                     marginRight: { xs: 0, sm: "1rem" },
                     marginBottom: { xs: "1rem", sm: 0 },
                   }}
-                  image={physio.imageUrl}
+                  image={
+                    isDesktop ? physio.desktopImageUrl : physio.phoneImageUrl
+                  }
                   alt={physio.name}
                 />
                 <CardContent sx={{ flex: 1, px: "0.5rem", py: "0re," }}>

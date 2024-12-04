@@ -9,7 +9,8 @@
         "Aktiv med artrose sertifisert (AktivA)."
       ],
       "description": "Jonas har lang klinisk erfaring fra offentlig og privat praksis, og har de siste årene hatt sin praksis ved Holten institutt. Han har bred erfaring innen allmennfysioterapi, med solid kompetanse innen behandling og rehabilitering av smertetilstander og funksjonsnedsettelser i muskel- og skjelettapparatet, rehabilitering etter akutte skader, samt pre- og postoperativ rehabilitering.",
-      "imageUrl": "/images/physiotherapists/jonas.jpg",
+      "phoneImageUrl": "/images/physiotherapists/jonas.jpg",
+      "desktopImageUrl": "/images/physiotherapists/jonasdesktop.jpg",
       "email": "jonas@holteninstitutt.no"
     },
     {
@@ -22,7 +23,8 @@
         "Spesialkompetanse på medisinsk treningsterapi (MTT)."
       ],
       "description": "Mette har lang erfaring med undersøkelse og behandling av smertetilstander i muskel og skjelettapparatet, både hos voksne og barn, og har hatt sin kliniske praksis ved Holten institutt i en rekke år. Hun har tidligere jobbet ved medisinsk, nevrologisk og nevrokirurgisk avdeling ved Ullevål sykehus, OUS.",
-      "imageUrl": "/images/physiotherapists/mette.jpg",
+      "phoneImageUrl": "/images/physiotherapists/mette.jpg",
+      "desktopImageUrl": "/images/physiotherapists/mettedesktop.jpg",
       "email": "mette@holteninstitutt.no"
     },
     {
@@ -36,7 +38,8 @@
         "Godkjent manuellterapeut med henvisningsrett 2006."
       ],
       "description": "Christian har arbeidet ved Menighetssøsterhjemmet, medisinsk avdeling, Kronprinsesse Marthas Sykehus (spesialsykehus for ortopediske sykdommer/problemstillinger), Fysikalsk Medisinsk Poliklinikk ved Ullevål Sykehus og Ryggpoliklinikken ved OUS. Videre har han lang klinisk erfaring fra arbeid ved Holten Institutt for Medisinsk Treningsterapi. Christian er særlig interessert i ortopediske problemstillinger og tilstander relatert til overbelastning av muskel- og skjelettsystemet.",
-      "imageUrl": "/images/physiotherapists/christian.jpg",
+      "phoneImageUrl": "/images/physiotherapists/christian.jpg",
+      "desktopImageUrl": "/images/physiotherapists/christiandesktop.jpg",
       "email": "christian@holteninstitutt.no"
     },
     {
@@ -49,7 +52,8 @@
         "Godkjent manuellterapeut med henvisningsrett 2006."
       ],
       "description": "Jostein har hatt sin praksis ved Holten Institutt siden 1986 og har lang erfaring med undersøkelse og behandling av funksjonsnedsettelser smertetilstander. Han er opptatt av å implementere aktive tiltak og trening som sentral del av behandlingen. I samarbeid med pasienten søker han å utarbeide et behandlingsopplegg med riktig doserte øvelser for å oppnå bedret funksjon og reduserte smerter.",
-      "imageUrl": "/images/physiotherapists/jostein.jpg",
+      "phoneImageUrl": "/images/physiotherapists/jostein.jpg",
+      "desktopImageUrl": "/images/physiotherapists/josteindesktop.jpg",
       "email": "jostein@holteninstitutt.no"
     },
     {
@@ -62,7 +66,8 @@
         "Aktiv med artrose sertifisert (AktivA)."
       ],
       "description": "Øyvind har bred erfaring med undersøkelse og behandling av både akutte og langvarige smertetilstander fra muskel-skjelettapparatet, idrettsskader og mer sammensatte tilstander. Han har lang klinisk erfaring fra privat praksis ved Volvat Medisinske Senter/NIMI, der han hadde sin kliniske hverdag ved legevakt og ortopedisk avdeling. Han har i mange år jobbet i tverrfaglige team med ortopeder og skadeleger. Innen idrettsskader har Øyvind spesielt god kompetanse på klatring og fotball, og jobber med utøvere på høyeste nasjonale nivå innen begge idretter.",
-      "imageUrl": "/images/physiotherapists/oyvind.jpg",
+      "phoneImageUrl": "/images/physiotherapists/oyvind.jpg",
+      "desktopImageUrl": "/images/physiotherapists/oyvinddesktop.jpg",
       "email": "oyvind@holteninstitutt.no"
     }
   ]
