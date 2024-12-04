@@ -83,14 +83,13 @@ const Physiotherapists: React.FC = () => {
                   }
                   alt={physio.name}
                 />
-                <CardContent sx={{ flex: 1, px: "0.5rem", py: "0re," }}>
+                <CardContent sx={{ flex: 1, px: "0.5rem", py: "0rem" }}>
                   <Typography
                     gutterBottom
                     variant="h5"
                     component="h2"
                     sx={{
                       color: theme.palette.primary.main,
-                      marginTop: "0.5rem",
                       marginBottom: "0.1rem",
                     }}
                   >
@@ -136,7 +135,7 @@ const Physiotherapists: React.FC = () => {
                       {physio.email}
                     </Link>
                   </Typography>
-                  <Typography variant="body1" component="p" sx={{}}>
+                  <Typography variant="body1" component="p">
                     Timebestilling gjøres per telefon
                   </Typography>
                 </CardContent>
