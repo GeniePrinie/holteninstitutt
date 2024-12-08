@@ -1,11 +1,11 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
-interface HelmetComponentProps {
+interface HelmetProps {
   title: string;
 }
 
-const HelmetComponent: React.FC<HelmetComponentProps> = ({ title }) => {
+const HelmetComponent: React.FC<HelmetProps> = ({ title }) => {
   return (
     <Helmet>
       <title>{title}</title>

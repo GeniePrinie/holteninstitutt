@@ -34,7 +34,7 @@ const Physiotherapists: React.FC = () => {
   );
 
   useEffect(() => {
-    fetch("/data/PhysiotherapistsData.json")
+    fetch(`${process.env.PUBLIC_URL}/data/PhysiotherapistsData.json`)
       .then((response) => response.json())
       .then((data) => {
         const transformedData = data.PhysiotherapistsData.map(
@@ -112,17 +112,16 @@ const Physiotherapists: React.FC = () => {
                   <Typography variant="h6" component="h3">
                     {physio.position}
                   </Typography>
-                  <Typography
-                    variant="body1"
-                    component="p"
-                    sx={{ my: "0.5rem" }}
+                  <ul
+                    style={{
+                      paddingLeft: "1rem",
+                      margin: "0.5rem 0", // Add margin to maintain spacing
+                    }}
                   >
-                    <ul style={{ paddingLeft: "1rem" }}>
-                      {physio.background.map((item, index) => (
-                        <li key={index}>{item}</li>
-                      ))}
-                    </ul>
-                  </Typography>
+                    {physio.background.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
                   <Typography variant="body1" component="p">
                     {physio.description}
                   </Typography>

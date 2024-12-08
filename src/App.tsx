@@ -1,4 +1,4 @@
-import React from "react";
+import { HelmetProvider } from "react-helmet-async";
 import "./App.css";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./pages/Home";
@@ -9,16 +9,18 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/fysioterapeuter" element={<Physiotherapists />} />
-        <Route path="/kontakt" element={<Contact />} />
-      </Routes>
+    <HelmetProvider>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/fysioterapeuter" element={<Physiotherapists />} />
+          <Route path="/kontakt" element={<Contact />} />
+        </Routes>
 
-      <Footer />
-    </Router>
+        <Footer />
+      </Router>
+    </HelmetProvider>
   );
 }
 

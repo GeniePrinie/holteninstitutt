@@ -12,7 +12,7 @@ const Home: React.FC = () => {
       <HelmetComponent title="Hjem | Holten intstitutt" />
       <Box sx={{ width: "100%", height: "auto", position: "relative" }}>
         <img
-          src={getImagePath("hiking.png")}
+          src={getImagePath("hiking.jpg")}
           alt="hiking"
           style={{ width: "100%", height: "auto", display: "block" }}
         />
