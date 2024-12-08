@@ -24,12 +24,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "node -e \"if(process.env.NODE_ENV==='production'){require('fs').writeFileSync('package.json',JSON.stringify({...JSON.parse(require('fs').readFileSync('package.json')),homepage:'https://GeniePrinie.github.io/holteninstitutt'},null,2))}\"",
     "build": "react-scripts build",
-    "postbuild": "node -e \"if(process.env.NODE_ENV==='production'){require('fs').writeFileSync('package.json',JSON.stringify({...JSON.parse(require('fs').readFileSync('package.json')),homepage:''},null,2))}\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "NODE_ENV=production npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
