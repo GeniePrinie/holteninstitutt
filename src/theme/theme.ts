@@ -34,21 +34,39 @@ const theme = createTheme({
     },
     text: {
       primary: colors.black,
+      secondary: colors.white,
     },
   },
   typography: {
-    fontFamily: "Roboto, Arial, sans-serif",
     h1: {
+      fontFamily: "Inter, sans-serif",
       fontSize: "2.5rem",
-      fontWeight: 700,
+      fontWeight: 300,
     },
     h2: {
+      fontFamily: "Inter, sans-serif",
       fontSize: "2rem",
       fontWeight: 700,
     },
+    h5: {
+      fontFamily: "Inter, sans-serif",
+      fontSize: "1.5rem",
+      fontWeight: 600,
+    },
+    h6: {
+      fontFamily: "Inter, sans-serif",
+      fontSize: "1.5rem",
+      fontWeight: 300,
+    },
     body1: {
+      fontFamily: "Inter, sans-serif",
       fontSize: "1rem",
       fontWeight: 400,
+    },
+    body2: {
+      fontFamily: "Inter, sans-serif",
+      fontSize: "1rem",
+      fontWeight: 600,
     },
     button: {
       textTransform: "none",
