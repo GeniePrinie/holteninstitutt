@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
       <Box>
         <Link href="/" variant="body1" sx={{ textDecoration: "none" }}>
           <img
-            src={process.env.PUBLIC_URL + "/holtenhorizontal.png"}
+            src={process.env.PUBLIC_URL + "/images/holtenhorizontal.png"}
             alt="logo"
             style={{ width: "200px", height: "auto" }}
           />
