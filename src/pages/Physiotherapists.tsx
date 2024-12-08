@@ -11,6 +11,7 @@ import {
   useTheme,
 } from "@mui/material";
 import HelmetComponent from "../components/Helmet";
+import { getPhysioImagePath } from "../helpers/imageUtils";
 
 interface Physiotherapist {
   id: number;
@@ -35,7 +36,20 @@ const Physiotherapists: React.FC = () => {
   useEffect(() => {
     fetch("/data/PhysiotherapistsData.json")
       .then((response) => response.json())
-      .then((data) => setPhysiotherapists(data.PhysiotherapistsData))
+      .then((data) => {
+        const transformedData = data.PhysiotherapistsData.map(
+          (physio: Physiotherapist) => ({
+            ...physio,
+            phoneImageUrl: getPhysioImagePath(
+              physio.phoneImageUrl.split("/").pop() || ""
+            ),
+            desktopImageUrl: getPhysioImagePath(
+              physio.desktopImageUrl.split("/").pop() || ""
+            ),
+          })
+        );
+        setPhysiotherapists(transformedData);
+      })
       .catch((error) =>
         console.error("Error fetching physiotherapists data:", error)
       );

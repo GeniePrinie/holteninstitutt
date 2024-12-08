@@ -2,6 +2,7 @@ import React from "react";
 import { useTheme } from "@mui/material/styles";
 import { Box, Container, Typography } from "@mui/material";
 import HelmetComponent from "../components/Helmet";
+import { getImagePath } from "../helpers/imageUtils";
 
 const Home: React.FC = () => {
   const theme = useTheme();
@@ -11,7 +12,7 @@ const Home: React.FC = () => {
       <HelmetComponent title="Hjem | Holten intstitutt" />
       <Box sx={{ width: "100%", height: "auto", position: "relative" }}>
         <img
-          src="/images/hiking.jpg"
+          src={getImagePath("hiking.png")}
           alt="hiking"
           style={{ width: "100%", height: "auto", display: "block" }}
         />

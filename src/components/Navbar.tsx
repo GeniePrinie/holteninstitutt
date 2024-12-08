@@ -13,6 +13,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { getImagePath } from "../helpers/imageUtils";
 
 const Navbar: React.FC = () => {
   const theme = useTheme();
@@ -94,7 +95,7 @@ const Navbar: React.FC = () => {
       <Box>
         <Link href="/" variant="body1" sx={{ textDecoration: "none" }}>
           <img
-            src={process.env.PUBLIC_URL + "/images/holtenhorizontal.png"}
+            src={getImagePath("holtenhorizontal.png")}
             alt="logo"
             style={{ width: "200px", height: "auto" }}
           />
