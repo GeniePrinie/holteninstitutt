@@ -1,8 +1,8 @@
+import { Link as RouterLink } from "react-router-dom"; // Add this import
 import { useTheme } from "@mui/material/styles";
 import {
   Box,
   Container,
-  Link,
   IconButton,
   Drawer,
   List,
@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
     >
       <List>
         {menuItems.map((item) => (
-          <ListItem key={item.text} component="a" href={item.path}>
+          <ListItem key={item.text} component={RouterLink} to={item.path}>
             <ListItemText
               primary={
                 <Typography
@@ -93,13 +93,13 @@ const Navbar: React.FC = () => {
       }}
     >
       <Box>
-        <Link href="/" variant="body1" sx={{ textDecoration: "none" }}>
+        <RouterLink to="/" style={{ textDecoration: "none" }}>
           <img
             src={getImagePath("holtenhorizontal.png")}
             alt="logo"
             style={{ width: "200px", height: "auto" }}
           />
-        </Link>
+        </RouterLink>
       </Box>
 
       <Box
@@ -120,20 +120,23 @@ const Navbar: React.FC = () => {
                   : "2.6rem",
             }}
           >
-            <Link
-              href={item.path}
-              variant="body1"
-              sx={{
+            <RouterLink
+              to={item.path}
+              style={{
                 textDecoration: "none",
                 color: theme.palette.secondary.main,
                 fontWeight: isActive(item.path) ? "bold" : "normal",
-                "&:hover": {
-                  fontWeight: "bold",
-                },
+                transition: "font-weight 0.2s",
               }}
+              onMouseEnter={(e) => (e.currentTarget.style.fontWeight = "bold")}
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.fontWeight = isActive(item.path)
+                  ? "bold"
+                  : "normal")
+              }
             >
               {item.text}
-            </Link>
+            </RouterLink>
           </Box>
         ))}
       </Box>
