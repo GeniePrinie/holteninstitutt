@@ -33,6 +33,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Set homepage for deployment
+        run: npm run set-homepage
+
       - name: Build the app
         run: npm run build
 
