@@ -67,8 +67,8 @@ const Home: React.FC = () => {
         </Typography>
         <Typography sx={{ width: { xs: "100%", md: "70%" }, mt: "1rem" }}>
           Uttrykket &quot;Bevegelse er medisin&quot; gir en god beskrivelse av
-          det som bør være en grunnpilar i god evidensbasert fysioterapi
-          praksis, og uttrykket beskriver en felles rød tråd i våre terapeuters
+          det som bør være en grunnpilar i god evidensbasert fysioterapipraksis,
+          og uttrykket beskriver en felles rød tråd i våre terapeuters
           paraksisprofil.
         </Typography>
       </Container>
