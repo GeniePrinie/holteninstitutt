@@ -91,8 +91,8 @@ const Contact: React.FC = () => {
             </Typography>
             <Typography variant="body1" component="p">
               Inngangen til klinikken er fra gateplan rett ved
-              trikkeholdeplassen. Du tar trapp/heis en etasje opp, går inn til
-              høyre, skiltet Holten institutt.
+              trikkeholdeplassen, merket inngang D. Du tar trapp/heis en etasje
+              opp, går inn til høyre, skiltet Holten institutt.
             </Typography>
           </Box>
         </Container>
