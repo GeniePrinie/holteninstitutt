@@ -8,12 +8,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
-  const basename =
-    process.env.NODE_ENV === "production" ? "/holteninstitutt" : "";
-
   return (
     <HelmetProvider>
-      <Router basename={basename}>
+      <Router basename="">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
