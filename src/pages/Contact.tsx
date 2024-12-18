@@ -65,6 +65,7 @@ const Contact: React.FC = () => {
             </Typography>
             <Typography variant="body1" component="p">
               Vi svarer så fort vi kan innenfor våre åpningstider.
+              Timebestilling må skje per telefon.
             </Typography>
           </Box>
 
