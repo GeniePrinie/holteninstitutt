@@ -69,6 +69,22 @@
       "phoneImageUrl": "oyvind.jpg",
       "desktopImageUrl": "oyvinddesktop.jpg",
       "email": "oyvind@holteninstitutt.no"
+    },
+    {
+      "id": 6,
+      "name": "René Gilje Læknes",
+      "position": "Psykomotorisk fysioterapeut, MSc.",
+      "background": [
+        "Ferdigutdannet fysioterapeut fra Profesjonshøgskolen i København i 2017.",
+        "Fullført mastergrad i psykomotorisk fysioterapi og rehabiliteringsvitenskap ved Universitetet i Leuven, Belgia i 2021.",
+        "Fullført mastergrad i Basal Kroppskjennskap, Universitetet i Almeria, Spania i 2021.",
+        "I gang med videreutdannelse i norsk psykomotorisk fysioterapi.",
+        "Utdannet yogalærer."
+      ],
+      "description": "René har bred erfaring fra privat institutt og psykiatriske sykehus, i inn- og utland, og arbeider med pasienter med akutte, langvarige og sammensatte plager. Han jobber med en helhetlig tilnærming til kropp og helse, forankret i en forståelse av kroppen som bærer av det levde liv. René er opptatt av å skape et trygt rom for å erfare og forstå sammenhenger i egen kropp – gjennom samtale, bevegelse og manuell behandling – med mål om å styrke pasientens evne til å mestre sine utfordringer. Timebestilling gjøres per telefon.",
+      "phoneImageUrl": "rene.jpg",
+      "desktopImageUrl": "renedesktop.jpg",
+      "email": "rene@holteninstitutt.no"
     }
   ]
 }
